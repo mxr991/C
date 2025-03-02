@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <title>KUPCO</title>
 
+
     <link rel="apple-touch-icon" sizes="180x180" href="Content/general/fav/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="Content/general/fav/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="Content/general/fav/favicon-16x16.png" />
@@ -14,14 +15,16 @@
 
 
     <!-- Keep linkBootstrap for dynamic language -->
-    <link rel="stylesheet" href="index.html" id="linkBootstrap">
+
+    <link rel="stylesheet" href="/" id="linkBootstrap">
     
+
     <script src="Content/general/js/lang.js"></script>
 
     <link id="css-ltr" rel="stylesheet" href="Content/general/css/bootstrap.min.css" />
 
 
-    <link rel="stylesheet" href="Content/general/css/site.css%3Fv=12.css" />
+    <link rel="stylesheet" href="Content/general/css/site.css?v=12" />
 
     <style>
         .cat {
@@ -37,9 +40,10 @@
         }
     </style>
 
-    <script src="content/assets/js/jquery-3.6.3.min.js"></script>
 
-    <script src="Scripts/en_ar_mapping.js%3Fv=4.1"></script>
+    <script src="Content/assets/js/jquery-3.6.3.min.js"></script>
+
+    <script src="Scripts/en_ar_mapping.js?v=4.1"></script>
 
     <script>
         $(document).ready(function () {
@@ -56,6 +60,7 @@
                 localStorage.setItem("lang", "ar");
                 document.cookie = 'lang=' + lang + '; Path=/;';
             }
+
 
             $('#afrozen').attr('href', "./User/frozen.html?lang=" + lang + "&type=fz");
             $('#afresh').attr('href', "./User/frozen.html?lang=" + lang + "&type=fs");
@@ -86,6 +91,7 @@
             </div>
         </div>
         <div class="logo text-center">
+
             <img src="Content/general/img/big-logo.png" alt="" />
         </div>
         <div class="wave">
@@ -117,7 +123,7 @@
                 <div class="row gy-4">
                     <div class="col-12 col-md-4">
                         <div class="rounded shadow">
-                            <a id="afrozen" href="User/frozen%3Fpt=fz.html">
+                            <a id="afrozen" href="User/frozen?pt=fz.html">
                                 <div class="cat frozen rounded-top">
                                 </div>
                                 <h3 class="bg-app-blue py-2 rounded-bottom text-center text-uppercase text-white" id="h3Frozen"> </h3>
@@ -126,7 +132,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="rounded shadow">
-                            <a id="afresh" href="User/frozen%3Fpt=fs.html">
+                            <a id="afresh" href="User/frozen?pt=fs.html">
                                 <div class="cat fresh rounded-top">
                                 </div>
                                 <h3 class="bg-app-blue py-2 rounded-bottom text-center text-uppercase text-white" id="h3Fresh"></h3>
@@ -135,7 +141,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="rounded shadow">
-                            <a id="afresheggs" href="User/frozen%3Fpt=eg.html">
+                            <a id="afresheggs" href="User/frozen?pt=eg.html">
                                 <div class="cat egg rounded-top"></div>
                                 <h3 class="bg-app-blue py-2 rounded-bottom text-center text-uppercase text-white" id="h3FreshEggs">
                                 </h3>
@@ -144,7 +150,7 @@
                     </div>
                     <div class="col-12 col-md-4">
                         <div class="rounded shadow">
-                            <a id="abucket" href="User/frozen%3Fpt=bk.html">
+                            <a id="abucket" href="User/frozen?pt=bk.html">
                                 <div class="cat bucket rounded-top"></div>
                                 <h3 class="bg-app-blue py-2 rounded-bottom text-center text-uppercase text-white" id="h3Buc--kets--">
                                     Cart </h3>
@@ -156,7 +162,7 @@
         </div>
     </section>
 
-    <script src="Content/general/js/site.js%3Fv=4.1"></script>
+    <script src="Content/general/js/site.js?v=4.1"></script>
 
 </body>
 </html>
