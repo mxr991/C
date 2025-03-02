@@ -1,6 +1,6 @@
 ﻿
 const host = window.location.protocol + "//" + window.location.host;
-const appBaseUrl = "file:///Users/mohamedhorani/websites/orderkupco.net/"
+// const appBaseUrl = "file:///Users/mohamedhorani/websites/orderkupco.net/"
 
 
 
