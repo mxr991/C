@@ -12,14 +12,14 @@
 
 @font-face {
     font-family: "janna";
-    src: url('../../fonts/janna/Janna-LT-Bold.ttf') format("truetype");
+    src: url('Content/fonts/janna/Janna-LT-Bold.ttf') format("truetype");
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: "janna";
-    src: url('../../fonts/janna/Janna-LT-Regular.ttf') format("truetype");
+    src: url('Content/fonts/janna/Janna-LT-Regular.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
 }
