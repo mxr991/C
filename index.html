@@ -55,14 +55,15 @@
 
       @font-face {
           font-family: "janna";
-          src: url('https://orderkupco.net/Content/fonts/janna/Janna-LT-Bold.ttf') format("truetype");
+
+          src: url('https://raw.githubusercontent.com/mxr991/C/v8/Content/fonts/janna/Janna-LT-Bold.ttf') format("truetype");
           font-weight: bold;
           font-style: normal;
       }
 
       @font-face {
           font-family: "janna";
-          src: url('https://orderkupco.net/Content/fonts/janna/Janna-LT-Regular.ttf') format("truetype");
+          src: url('https://raw.githubusercontent.com/mxr991/C/v8/Content/fonts/janna/Janna-LT-Regular.ttf') format("truetype");
           font-weight: normal;
           font-style: normal;
       }
@@ -656,7 +657,8 @@ function getenar(a, b) {
         </div>
     </section>
 
-    <script>function setPreferredLang(lang) {
+    <script>
+      function setPreferredLang(lang) {
 
     delete_cookie("lang");
     set_cookie("lang", lang);
@@ -721,7 +723,8 @@ function swithLang() {
 }
 
 function loadExtranalfile(id, fileName, fileType) {
-    fileName = "../Content/general/css/" + fileName;
+
+    fileName = "https://raw.githubusercontent.com/mxr991/C/v8/Content/general/css/" + fileName;
     if (fileType == "js") {
         //if filename is a external JavaScript file
         var fileref = document.createElement("script");
@@ -792,7 +795,8 @@ function getSessionCustomer() {
     var cust = sessionStorage.getItem("customer");
     if (cust) return JSON.parse(cust);
     else return null;
-}</script>
+}
+</script>
 
 </body>
 </html>
