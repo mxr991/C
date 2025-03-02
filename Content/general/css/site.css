@@ -7,91 +7,71 @@
     --app-blue: #021f52;
     --app-blue-light: #3a5d9a;
     --app-yellow: #fcae3c;
-}
-
-
+    }
 @font-face {
     font-family: "janna";
-    src: url('../../fonts/janna/Janna-LT-Bold.ttf') format("truetype");
+    src: url('https://orderkupco.net/Content/general/fonts/janna/Janna-LT-Bold.ttf') format("truetype");
     font-weight: bold;
     font-style: normal;
-}
-
+    }
 @font-face {
     font-family: "janna";
-    src: url('../../fonts/janna/Janna-LT-Regular.ttf') format("truetype");
+    src: url('https://orderkupco.net/Content/general/fonts/janna/Janna-LT-Regular.ttf') format("truetype");
     font-weight: normal;
     font-style: normal;
-}
-
+    }
 /* font-family: 'Kanit', sans-serif;
 font-family: 'Roboto Condensed', sans-serif; */
 * {
     font-family: "Kanit", sans-serif;
-}
-
+    }
 body {
     font-family: "Kanit", sans-serif;
-}
-
-
+    }
 [dir="rtl"] * {
     font-family: 'janna', cursive;
     font-weight: normal;
-}
-
+    }
 [dir="rtl"] body {
     font-family: 'janna', cursive;
     font-weight: normal;
-}
-
+    }
 [dir="rtl"] .amount {
     font-family: "Kanit", sans-serif;
-}
-
+    }
 .btn-primary {
     background: var(--app-blue) !important;
     border: none;
-}
-
+    }
 .btn:hover {
     -moz-box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-}
-
+    }
 .btn.btn-link:hover {
     box-shadow: none;
-}
-
+    }
 .btn.btn-link {
     padding: 0 0 4px 0 !important;
-}
-
+    }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background-color: var(--app-blue);
-}
-
+    }
 .text-app-blue-light {
     color: var(--app-blue-light);
-}
-
+    }
 .text-app-blue {
     color: var(--app-blue) !important;
-}
-
+    }
 .bg-app-blue {
     background: var(--app-blue) !important;
-}
-
+    }
 .text-app-yellow {
     color: var(--app-yellow) !important;
-}
-
+    }
 .bg-app-yellow {
     background: var(--app-yellow) !important;
-}
-
+    }
 .bg-app-yg {
     background-color: orange;
     background: rgb(230, 150, 41);
@@ -99,8 +79,7 @@ body {
     background: -webkit-linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     background: linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e69629",endColorstr="#e96e47",GradientType=1);
-}
-
+    }
 #hero-section {
     position: relative;
     height: 70vh;
@@ -110,8 +89,7 @@ body {
     background: -webkit-linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     background: linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e69629",endColorstr="#e96e47",GradientType=1);
-}
-
+    }
     #hero-section .wave {
         position: absolute;
         bottom: 0;
@@ -119,7 +97,6 @@ body {
         width: 100%;
         height: auto;
     }
-
     #hero-section .logo {
         position: absolute;
         top: 50%;
@@ -127,11 +104,9 @@ body {
         transform: translate(-50%, -50%);
         z-index: 9;
     }
-
-a {
+    a {
     text-decoration: none;
-}
-
+    }
 .cat {
     cursor: pointer;
     background: center center no-repeat;
@@ -141,30 +116,23 @@ a {
     text-decoration: none;
     text-shadow: 0px 2px 0 white;
     color: var(--app-blue);
-}
-
+    }
     .cat .overlay {
         background-color: rgba(230, 150, 41, 0.3);
     }
-
     .cat.fresh {
-        background-image: url(../img/cat/fresh.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/fresh.jpg);
     }
-
     .cat.frozen {
-        background-image: url(../img/cat/frozen.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/frozen.jpg);
     }
-
     .cat.egg {
-        background-image: url(../img/cat/egg-1.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/egg-1.jpg);
     }
-
     .cat.bucket {
-        background-image: url(../img/cat/bucket.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/bucket.jpg);
     }
-
-/* External Page */
-
+    /* External Page */
 .navbar-external {
     position: relative;
     /* height: 40vh; */
@@ -174,8 +142,7 @@ a {
     background: -webkit-linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     background: linear-gradient( 90deg, rgba(230, 150, 41, 1) 43%, rgba(233, 110, 71, 1) 81% );
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e69629",endColorstr="#e96e47",GradientType=1);
-}
-
+    }
     .navbar-external .wave {
         position: absolute;
         bottom: 0;
@@ -183,11 +150,9 @@ a {
         width: 100%;
         height: auto;
     }
-
-.page-content-section {
+    .page-content-section {
     margin: 75px auto;
-}
-
+    }
 .page-header {
     /* margin-top: 250px; */
     background: center center no-repeat;
@@ -195,13 +160,11 @@ a {
     border-radius: 8px;
     overflow: hidden;
     margin: auto 5px;
-}
-
+    }
     .page-header .overlay {
         /* background: rgba(16, 17, 58, 0.7); */
         background-color: rgba(230, 150, 41, 0.3);
     }
-
         .page-header .overlay .title {
             padding: 90px 10px;
             color: var(--app-yellow);
@@ -209,75 +172,59 @@ a {
             text-shadow: 0px 2px 0 white;
             color: var(--app-blue);
         }
-
     .page-header.fresh {
-        background-image: url(../img/cat/fresh.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/fresh.jpg);
     }
-
     .page-header.frozen {
-        background-image: url(../img/cat/frozen.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/frozen.jpg);
     }
-
     .page-header.egg {
-        background-image: url(../img/cat/egg-1.jpg);
+        background-image: url(https://orderkupco.net/Content/general/img/cat/egg-1.jpg);
     }
-
-.page-content {
+    .page-content {
     margin-top: 60px;
-}
-
+    }
 .checkout-container {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
+    }
 .items img {
     width: 60%;
     border-radius: 50%;
-}
-
+    }
 .items .item {
     margin: 10px auto;
-}
-
+    }
 .counter-container {
 }
-
 .items .item:hover {
     background: var(--bs-light);
-}
-
+    }
 .item.active {
     background: var(--bs-light);
     border-bottom: 4px solid var(--app-blue-light);
-}
-
+    }
     .item.active .fa-check-circle {
         color: var(--app-blue-light);
     }
-
     .item.active .bi {
         color: var(--app-blue-light);
     }
-
     .item.active h4 {
         color: var(--app-blue-light);
     }
-
     .item.active .counter-container {
         display: flex;
     }
-
-.item h1,
+    .item h1,
 h2,
 h3,
 h4,
 p {
     margin: 0;
-}
-
+    }
 /* Product count */
 .counter-container {
     display: none;
@@ -286,28 +233,23 @@ p {
     justify-content: space-between;
     align-items: center;
     align-content: center;
-}
-
+    }
 .ccol-1 {
     width: 45%;
-}
-
+    }
 .ccol-2 {
     width: 25%;
-}
-
+    }
 .ccol > button,
 .number {
     width: 100%;
     border: 0px;
     text-align: center;
-}
-
+    }
 .button {
     font-family: sans-serif;
     font-size: 1.3rem;
-}
-
+    }
 button {
     color: var(--bs-danger);
     user-select: none;
